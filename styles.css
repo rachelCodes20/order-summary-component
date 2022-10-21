@@ -19,7 +19,6 @@ body {
 }
 .card {
     width: 450px;
-    font: 20px;
     background-color: white;
     color: var(--desaturated-blue);
 }
@@ -27,4 +26,8 @@ body {
     color: var(--dark-blue);
     font-weight: 900;
     font-size: 32px;
+}
+
+.hero-image {
+    width: 100%;
 }
