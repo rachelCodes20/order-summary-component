@@ -21,6 +21,7 @@ body {
     width: 450px;
     background-color: white;
     color: var(--desaturated-blue);
+    margin: 50px auto;
 }
 .title {
     color: var(--dark-blue);
@@ -30,4 +31,8 @@ body {
 
 .hero-image {
     width: 100%;
+}
+
+.container {
+    padding: 30px;
 }
