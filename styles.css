@@ -44,6 +44,8 @@ body {
 
 .container {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container > * {
@@ -54,6 +56,32 @@ body {
     line-height: 25px;
 }
 
+.plan-container {
+    font-size: 16px;
+    background-color: var(--very-pale-blue);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.plan-container a {
+    color: var(--bright-blue);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.plan-container a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.plan-container strong {
+    opacity: 0.8;
+    text-decoration: none;
+}
 button {
     width: 100%;
     border: none;
